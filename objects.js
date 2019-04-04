@@ -49,9 +49,9 @@
 
 let playlist = {Rednex: 'Cotton Eye Joe'}
 
-function updatePlaylist (playlist1, artist, song) {
+function updatePlaylist (playlist, artistName, songTitle) {
 
-  playlist1.artist = 'song'
+  playlist.artistName = songTitle
 
   return playlist
 }
