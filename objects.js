@@ -51,7 +51,7 @@ let playlist = {Rednex: 'Cotton Eye Joe'}
 
 function updatePlaylist (playlist, artistName, songTitle) {
 
-  playlist.artistName = songTitle
+  playlist[artistName] = songTitle
 
   return playlist
 }
