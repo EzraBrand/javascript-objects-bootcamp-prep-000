@@ -13,8 +13,8 @@ meals.breakfast = 'cereal'
 console.log(meals)
 
 // let sweetMeal = 'dessert'
-// 
+//
 // meals[sweetMeal] = 'cake';
-// 
+//
 // meals.dessert
 // meals[sweetMeal]
