@@ -6,4 +6,4 @@ let meals = {
 
 meals.snack = 'yogurt'
 
-console.log(meals)
+console.log(meals.lunch)
