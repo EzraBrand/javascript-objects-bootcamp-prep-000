@@ -6,4 +6,6 @@ let meals = {
 
 meals.snack = 'yogurt'
 
+meals['second breakfast'] = 'bagel'
+
 console.log(meals.lunch)
