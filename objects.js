@@ -35,12 +35,23 @@
 //
 // Object.assign({eggs: 3}, {chocolate: '1 cup', flour: '2 cups'}, {flour: '1/2 cup'})
 
-function updateObjectWithKeyAndValue(obj,key,value){
-  return Object.assign({}, obj, {[key]: value})
+// function updateObjectWithKeyAndValue(obj,key,value){
+//   return Object.assign({}, obj, {[key]: value})
+// }
+//
+// let recipe = {eggs: 3}
+//
+// updateObjectWithKeyAndValue(recipe,'chocolate', '1 cup')
+//
+// //what does Object.assign assign to?
+//
+// console.log(recipe)
+
+let playlist = {Rednex: 'Cotton Eye Joe'}
+
+function updatePlaylist (playlist1, artist, song) {
+
+  playlist1.artist = 'song'
+
+  return playlist
 }
-
-let recipe = {eggs: 3}
-
-updateObjectWithKeyAndValue(recipe,'chocolate', '1 cup')
-
-console.log(recipe)
